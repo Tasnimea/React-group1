@@ -50,11 +50,26 @@
 }
 #img2{
     position: absolute;
-    left: 43%;
     width: 2%;
+    left: 42.4%;
 }
 .btnfacebook{
     background-color: #5777b9;
     
+
+}
+#googleIcon{
+    position: absolute;
+    right: 55.5%;
+    top: 24%;
+}
+#createB{
+    background-color: #ff5a00;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:100%;    
 
 }

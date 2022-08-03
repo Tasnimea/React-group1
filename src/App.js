@@ -9,6 +9,7 @@ import AddToCard from './components/addToCart/addToCard'
 import Login from './components/Login/Login' 
 import AllRestrants from './components/all-restaurant/all-restaurant'
 import BasicDeta from './components/Basic detail/basicDetail'
+import Rigester from './components/Rigester/Rigester';
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
         <Route  path="/Login" exact component={Login}/>
         <Route  path="/AllRestrants" exact component={AllRestrants}/>
         <Route  path="/BasicDeta" exact component={BasicDeta}/>
+        <Route  path="/Rigester" exact component={Rigester}/>
 
         </Switch>
       </Router>

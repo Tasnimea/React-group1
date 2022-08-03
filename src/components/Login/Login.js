@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Login.css"
-import GoogleIcon from './icons8-google (1).svg';
+// import GoogleIcon from './icons8-google (1).svg';
 import FacebookIcon from './icons8-facebook (1).svg';
+import { Link } from 'react-router-dom';
 
 
 
@@ -12,7 +13,9 @@ const Login = () => {
             <h1 className='text-center mt-8 mb-8 f-28 f-500'> Login</h1>
         </div>
         <div id='main' className="d-flex justify-content-center">
-<img id='img1' className='icon' src={GoogleIcon} alt="" />
+{/* <img id='img1' className='icon' src={GoogleIcon} alt="" /> */}
+{/* <FontAwesomeIcon icon="fa-brands fa-google" /> */}
+<i id='googleIcon' class="fa-brands fa-google"></i>
 <button id='btn1' className='btngoogle' >
     Continue wih google
 
@@ -56,13 +59,13 @@ const Login = () => {
 <div className='container d-flex justify-content-center '>
 
 <div className='row p-3'>
-<button id='createBt'>Login</button>
+<button id='createB' className='btn-xl'>Login</button>
 </div>
 </div>
 <div className='container d-flex justify-content-center '>
 
 <div className='row p-3'>
-<p> Don't have an account? <span id='sp2'>Create an account</span></p>
+<p> Don't have an account? <Link to={"/Rigester"}><span id='sp2'>Create an account</span></Link></p>
 
 </div>
 </div>
